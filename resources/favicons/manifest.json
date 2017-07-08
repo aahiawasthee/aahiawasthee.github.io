@@ -1,0 +1,18 @@
+{
+    "name": "Aahi Awas",
+    "icons": [
+        {
+            "src": "F:\\own\\resources\\favicons/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "F:\\own\\resources\\favicons/android-chrome-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#fffbfb",
+    "background_color": "#fffbfb",
+    "display": "standalone"
+}

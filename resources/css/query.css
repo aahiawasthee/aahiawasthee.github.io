@@ -1,0 +1,383 @@
+/* Big tablet to 1200px (widths smaller than the 1140px row) */
+
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    .row {
+        padding: 0 2%;
+    }
+    .project-row {
+        padding: 0 1%;
+    }
+    .autowide img {
+        width: 250px;
+        height: 200px;
+    }
+    .btn {
+        padding: 8px 10px;
+        letter-spacing: 1.5px;
+    }
+    .autowide .module a {
+        margin-left: 17%;
+    }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+
+@media only screen and (max-width: 1023px) {
+    html,
+    body {
+        font-size: 13px;
+    }
+    nav img {
+        width: 60px;
+    }
+    p {
+        font-size: 110%;
+    }
+    .sticky .main-nav {
+        padding-top: 30px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 20px 0;
+    }
+    .sticky .mobile-nav-icon {
+        margin-top: 10px;
+    }
+    .sticky .mobile-nav-icon i {
+        color: #555;
+    }
+}
+
+
+/* Small phones to small tablets: from 481px to 767px */
+
+@media only screen and (max-width: 767px) {
+    nav {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.79);
+        height: auto;
+        box-shadow: 0 2px 2px #efefef;
+    }
+    .main-nav {
+        display: none;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 30.5%;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    }
+    .sticky .main-nav {
+        margin-top: 0;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding-bottom: 25px;
+        margin-top: -10px;
+    }
+    .sticky .mobile-nav-icon i {
+        color: beige;
+        padding: 20px 12px;
+    }
+    .about-header h2 {
+        font-size: 350%;
+        margin-top: 8%;
+    }
+    h2:after {
+        margin-top: 10px;
+    }
+    .profile-picture {
+        display: inline-block;
+        width: 180px;
+        height: 180px;
+        float: right;
+        margin: 25% 15%;
+    }
+    .about-me {
+        margin: 8% 0 8% -2%;
+        font-size: 100%;
+    }
+    .icon-b:before {
+        width: 50px;
+        height: 50px;
+    }
+    .icon-b.new {
+        height: 40px;
+        width: 38px;
+        margin: 20px 30px;
+        padding-top: 0;
+    }
+    .icon-b {
+        width: 40px;
+    }
+    h3 {
+        margin-left: -10px;
+        font-size: 110%;
+        letter-spacing: 2px;
+    }
+    .skill-row {
+        padding: 3.5% 0;
+    }
+    .skill-row2 {
+        padding-top: 1.5%;
+    }
+    .skill-name {
+        margin-left: -35px;
+        letter-spacing: 1px;
+    }
+    .autowide .module {
+        padding: 0 6%;
+    }
+    #slogan {
+        height: 250px;
+    }
+    .goal {
+        font-size: 250%;
+        margin: 10% 0;
+    }
+    .contact-part1 {
+        width: 340px;
+    }
+    contact-form {}
+}
+
+
+/* Small phones: from 0 to 480px */
+
+@media only screen and (max-width: 480px) {
+    html,
+    body {
+        font-size: 10px;
+    }
+    nav {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.79);
+        height: auto;
+        box-shadow: 0 2px 2px #efefef;
+    }
+    .main-nav {
+        display: none;
+    }
+    .main-nav {
+        float: left;
+        margin-top: 25px;
+        margin-left: 12.5%;
+    }
+    .mobile-nav-icon {
+        display: inline-block;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 120%;
+    }
+    .sticky .main-nav {
+        margin-top: 0;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding-bottom: 25px;
+        margin-top: -10px;
+    }
+    .sticky .mobile-nav-icon i {
+        color: beige;
+        padding: 20px 12px;
+    }
+    .about-header h2 {
+        margin-top: 15%;
+    }
+    h2:after {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .profile-picture {
+        margin: 0;
+        float: none;
+        display: block;
+        margin-bottom: 2%;
+    }
+    .profile-pic img {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .about-me {
+        font-size: 130%;
+        width: 90%;
+        margin: 0 auto 2%;
+    }
+    .social-nav {
+        font-size: 200%;
+    }
+    .skill-row2 {
+        display: none;
+    }
+    .skill-row {
+        float: none;
+        display: block;
+        margin-bottom: 2%;
+        width: 90%;
+    }
+    .skill-row h3 {
+        margin-top: -30px;
+        margin-left: -10px;
+        margin-bottom: 30px;
+        font-size: 110%;
+        letter-spacing: 2px;
+    }
+    .autowide .module {
+        position: static;
+        margin: 4% 15% 4% 15%;
+        padding: 0;
+    }
+    .btn {
+        font-size: 130%;
+    }
+    #slogan {
+        height: 150px;
+    }
+    .goal {
+        font-size: 200%;
+    }
+    .row .contact-part1 {
+        width: 50%;
+        padding: 0 6% 0 10%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact-part1 {
+        float: none;
+        display: block;
+        margin-bottom: 2%;
+    }
+    contact-form {}
+    label {
+        font-size: 130%;
+        margin-bottom: 10px;
+    }
+    .cont-details {
+        padding: 5px;
+        text-align: left;
+        font-size: 130%;
+    }
+    .copyright {
+        margin-top: 10px;
+    }
+    .email {
+        margin-left: -35%;
+    }
+}
+
+
+/* -------------------------
+   Experience Media Queries 
+   ------------------------- */
+
+@media screen and (max-width: 1020px) {
+    .timeline ul li .content {
+        width: 41vw;
+    }
+    .timeline ul li:nth-child(even) .content {
+        left: calc(-41vw - 45px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .timeline ul li {
+        margin-left: 20px;
+    }
+    .timeline ul li .content {
+        width: calc(100vw - 100px);
+    }
+    .timeline ul li .content h2 {
+        text-align: center;
+        font-size: 130%;
+    }
+    .timeline ul li .content h5 {
+        text-align: center;
+        font-size: 130%;
+    }
+    .timeline ul li .content p {
+        text-align: center;
+        font-size: 130%;
+    }
+    .timeline ul li:nth-child(even) .content {
+        left: 45px;
+        background: none;
+        background: -webkit-linear-gradient(-45deg, none, none);
+        background: linear-gradient(-45deg, none, none);
+    }
+    .timeline ul li:nth-child(even) .content:before {
+        left: -33px;
+    }
+}
+
+
+/* -------------------------
+   Project Media Queries 
+   ------------------------- */
+
+
+/* 2 columns: 600px */
+
+@media only screen and (min-width: 600px) {
+    .autowide .module {
+        float: left;
+        margin-right: 2.564102564102564%;
+        width: 48.717948717948715%;
+    }
+    .autowide .module:nth-child(2n+0) {
+        margin-right: 0;
+    }
+}
+
+
+/* 3 columns: 768px */
+
+@media only screen and (min-width: 768px) {
+    .autowide .module {
+        width: 31.623931623931625%;
+    }
+    .autowide .module:nth-child(2n+0) {
+        margin-right: 2.564102564102564%;
+    }
+    .autowide .module:nth-child(3n+0) {
+        margin-right: 0;
+    }
+}
+
+
+/* 4 columns: 992px and up */
+
+@media only screen and (min-width: 992px) {
+    .autowide .module {
+        width: 23.076923076923077%;
+    }
+    .autowide .module:nth-child(3n+0) {
+        margin-right: 2.564102564102564%;
+    }
+    .autowide .module:nth-child(4n+0) {
+        margin-right: 0;
+    }
+}
