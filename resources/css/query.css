@@ -39,17 +39,57 @@
         font-size: 110%;
     }
     .sticky .main-nav {
-        padding-top: 30px;
+        padding-top: 5px;
     }
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited {
-        padding: 20px 0;
+        padding: 5px 0;
     }
     .sticky .mobile-nav-icon {
         margin-top: 10px;
     }
     .sticky .mobile-nav-icon i {
         color: #555;
+    }
+    .icon-b:before {
+        width: 50px;
+        height: 50px;
+    }
+    .icon-b.new {
+        height: 40px;
+        width: 38px;
+        margin: 20px 30px;
+        padding-top: 0;
+    }
+    .icon-b {
+        width: 40px;
+    }
+    h3 {
+        margin-left: -10px;
+        font-size: 110%;
+        letter-spacing: 2px;
+    }
+    .profile-picture {
+        width: 210px;
+        height: 210px;
+        margin: 25% 2%;
+    }
+    .skill1-row {
+        display: table;
+        margin: 0 auto;
+    }
+    .skill-row {
+        padding-top: 3.5%;
+        padding-bottom: 3.5%;
+        margin: 0 auto;
+        width: auto;
+    }
+    .skill-name {
+        margin-left: -35px;
+        letter-spacing: 1px;
+    }
+    #slogan {
+        height: 240px;
     }
 }
 
@@ -73,6 +113,7 @@
     }
     .mobile-nav-icon {
         display: inline-block;
+        margin-top: 15px;
     }
     .main-nav li {
         display: block;
@@ -89,7 +130,7 @@
     }
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited {
-        padding-bottom: 25px;
+        padding-bottom: 15px;
         margin-top: -10px;
     }
     .sticky .mobile-nav-icon i {
@@ -152,10 +193,43 @@
         font-size: 250%;
         margin: 10% 0;
     }
-    .contact-part1 {
-        width: 340px;
+    .contact1 {
+        display: table;
+        margin: 0 auto;
+        vertical-align: middle;
     }
-    contact-form {}
+    .row .contact-part1 {
+        margin: 2% auto;
+        width: 100%;
+    }
+    .cont-details {
+        text-align: left;
+        font-size: 120%;
+        margin-top: -7%;
+        margin-left: -20%;
+    }
+    label {
+        font-size: 130%;
+        margin-bottom: 10px;
+    }
+    .contact2 {
+        display: table;
+        margin: 0 auto 0 20%;
+        vertical-align: middle;
+    }
+    .row .contact-part2 {
+        margin: 2% auto 2% -30%;
+        width: 200%;
+    }
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+    }
+    .copyright {
+        margin-top: 10px;
+    }
 }
 
 
@@ -166,11 +240,25 @@
     body {
         font-size: 10px;
     }
+    .hero-text-box h1 {
+        font-size: 400%;
+    }
+    .hero-text-box h3 {
+        margin-top: 10px;
+        font-size: 230%;
+    }
     nav {
         position: absolute;
         background-color: rgba(0, 0, 0, 0.79);
         height: auto;
         box-shadow: 0 2px 2px #efefef;
+    }
+    .logo-black {
+        display: block;
+        height: 50px;
+        float: left;
+        width: 50px;
+        margin-top: 5px;
     }
     .main-nav {
         display: none;
@@ -182,6 +270,7 @@
     }
     .mobile-nav-icon {
         display: inline-block;
+        margin-top: 15px;
     }
     .main-nav li {
         display: block;
@@ -198,7 +287,7 @@
     }
     .sticky .main-nav li a:link,
     .sticky .main-nav li a:visited {
-        padding-bottom: 25px;
+        padding-bottom: 15px;
         margin-top: -10px;
     }
     .sticky .mobile-nav-icon i {
@@ -260,32 +349,43 @@
     .goal {
         font-size: 200%;
     }
+    .contact1 {
+        display: table;
+        margin: 0 auto;
+        vertical-align: middle;
+    }
     .row .contact-part1 {
-        width: 50%;
-        padding: 0 6% 0 10%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .contact-part1 {
-        float: none;
-        display: block;
-        margin-bottom: 2%;
-    }
-    contact-form {}
-    label {
-        font-size: 130%;
-        margin-bottom: 10px;
+        padding-left: 35%;
+        margin: 2% auto;
+        width: 100%;
     }
     .cont-details {
         padding: 5px;
         text-align: left;
         font-size: 130%;
+        display: table;
+        margin-top: 2%;
+    }
+    label {
+        font-size: 130%;
+        margin-bottom: 10px;
+    }
+    .contact2 {
+        display: inline-block;
+        margin: 0 auto 0 12%;
+        width: 70%;
+        font-size: 110%;
+    }
+    .row .contact-part2 {
+        margin: 2% auto;
+        width: 120%;
     }
     .copyright {
         margin-top: 10px;
     }
     .email {
-        margin-left: -35%;
+        margin-left: -35px;
+        width: inherit;
     }
 }
 

@@ -649,16 +649,36 @@ nav img {
 
 /* ----------------------------- */
 
-.contact-form {
-    width: 90%;
-    padding-top: 9%;
-}
-
 .form-heading {
     padding-bottom: 2%;
     font-size: 140%;
     margin-bottom: 10px;
     letter-spacing: 2px;
+}
+
+.row .contact-row {
+    margin: 5% 0 15% 0;
+}
+
+.cont-phone,
+.cont-home {
+    margin-top: -9%;
+}
+
+.phone,
+.email,
+.address {
+    margin-top: 7%;
+}
+
+.cont-details {
+    padding-top: 13.5%;
+    text-align: left;
+}
+
+.copyright {
+    color: #888;
+    text-align: center;
 }
 
 label {
@@ -667,15 +687,15 @@ label {
     font-size: 110%;
 }
 
-.cont-phone,
-.cont-home {
-    margin-top: -9%;
+.contact-form {
+    width: 90%;
+    padding-top: 9%;
 }
 
 input[type=text],
 input[type=email],
-select,
-textarea {
+textarea,
+select {
     font-family: 'Lobster', serif, sans-serif;
     letter-spacing: 1px;
     width: 100%;
@@ -690,18 +710,19 @@ textarea {
     height: 150px;
 }
 
+.message {
+    font-family: 'Lobster', serif, sans-serif;
+    letter-spacing: 1px;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    color: black;
+}
+
 *:focus {
     outline: none;
-}
-
-.cont-details {
-    padding-top: 13.5%;
-    text-align: left;
-}
-
-.copyright {
-    color: #888;
-    text-align: center;
 }
 
 
